@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/* html {
+    font-size: 62.5%;
+} */
+
+body {
+    font-size: 16px;
+    margin: auto;
+    width: 100%;
+    max-width: 1280vh;
+    height: 100%;
+    background:linear-gradient(252.34deg, rgba(0, 209, 255, 0.79) -3.42%, rgba(149, 187, 233, 0.79) 23.27%, rgba(160, 116, 215, 0.762656) 89.98%, rgba(255, 97, 182, 0.74) 112.41%);
+}

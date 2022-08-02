@@ -1,0 +1,14 @@
+header{
+    width: 80%;
+    height: 450px;
+    margin: 4.5rem auto;
+    background-color: white;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

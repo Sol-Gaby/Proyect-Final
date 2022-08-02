@@ -1,0 +1,10 @@
+.logo{
+    display: grid;
+    grid-auto-flow: column;
+}
+.logo img{
+    width: 6rem;
+    background: rgba(174, 151, 255, 0.779);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
