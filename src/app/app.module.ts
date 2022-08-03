@@ -7,6 +7,7 @@ import { LogoArgComponent } from './components/logo-arg/logo-arg.component';
 import { SocialComponent } from './components/social/social.component';
 import { BotonLoginComponent } from './components/boton-login/boton-login.component';
 import { AboutComponent } from './components/about/about.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { AboutComponent } from './components/about/about.component';
     LogoArgComponent,
     SocialComponent,
     BotonLoginComponent,
-    AboutComponent
+    AboutComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule

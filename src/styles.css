@@ -8,6 +8,7 @@ body {
     width: 100%;
     max-width: 1280vh;
     height: 100%;
-    background:linear-gradient(252.34deg, rgba(0, 209, 255, 0.79) -3.42%, rgba(149, 187, 233, 0.79) 23.27%, rgba(160, 116, 215, 0.762656) 89.98%, rgba(255, 97, 182, 0.74) 112.41%);
+    background:linear-gradient(252.34deg, rgba(255, 174, 218, 0.74) -4.03%, rgba(209, 172, 255, 0.762656) 21.45%, rgba(157, 201, 255, 0.79) 80.88%, rgba(173, 240, 255, 0.79) 112.41%);
     background-position: fixed;
 }
+
