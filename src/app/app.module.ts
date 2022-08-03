@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoArgComponent } from './components/logo-arg/logo-arg.component';
 import { SocialComponent } from './components/social/social.component';
 import { BotonLoginComponent } from './components/boton-login/boton-login.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { BotonLoginComponent } from './components/boton-login/boton-login.compon
     HeaderComponent,
     LogoArgComponent,
     SocialComponent,
-    BotonLoginComponent
+    BotonLoginComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
