@@ -1,5 +1,6 @@
 h2{
-    font-size: 3rem;text-transform: uppercase;
+    font-size: 3rem;
+    text-transform: uppercase;
     text-align: center;
 }
 
@@ -33,14 +34,14 @@ p{
     padding: 4rem;
 } */
 
-.cont__experience{
+.cont__education{
     /* display: grid; */
     margin-top: 15rem;
-    margin-bottom: 7rem;
+    margin-bottom:4rem;
 }
 
-.experience__title{
-    padding-bottom: 5rem;
+.cont__title{
+    padding-bottom: 2rem;
 }
 
 .cont__text{
@@ -48,13 +49,14 @@ p{
     align-items: center;
 }
 
-#experiencia{
-    padding: 3rem , 0;
+#education{
+    padding: 2rem , 0;
     align-items: center;
 }
 
 .row{
     margin-top: 4rem;
+    margin-bottom: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
