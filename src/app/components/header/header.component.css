@@ -10,15 +10,25 @@ header{
 }
 
 div{
-    display: grid;
-    grid-template-columns: 63% 20% 20%;
+    /* display: grid;
+    grid-template-columns: 63% 20% 20%; */
     width: 100%;
     margin: 0 auto;
 }
 
-#contenedor-sup{
+/* #contenedor-sup{
     height: 20rem;
     grid-template-columns: 50%, 25%, 25%;
     align-items: center;
     justify-content: space-between;
+} */
+
+.row{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.botones{
+    display: flex;
+    justify-content: flex-end;
 }
