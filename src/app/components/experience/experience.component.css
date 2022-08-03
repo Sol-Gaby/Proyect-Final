@@ -1,0 +1,60 @@
+h2{
+    font-size: 3rem;text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    text-transform: uppercase;
+    margin: 2rem;
+}
+
+h4{
+    margin: 2rem;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+    gap: 2rem;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    text-align: center;
+}
+
+.conteiner {
+    width: 100%;
+    /* padding: 4rem; */
+}
+
+.cont__experience{
+    /* display: grid; */
+    margin-top: 15rem;
+    margin-bottom: 7rem;
+}
+
+.experience__title{
+    padding-bottom: 5rem;
+}
+
+.cont__text{
+
+    align-items: center;
+}
+
+#experiencia{
+    padding: 3rem , 0;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
