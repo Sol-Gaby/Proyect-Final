@@ -1,4 +1,5 @@
 header{
+    display: flex;
     width: 80%;
     height: 450px;
     margin: 4.5rem auto;
@@ -7,8 +8,17 @@ header{
     padding: 2rem;
     border-radius: 2rem;
 }
+
 div{
-    display: flex;
+    display: grid;
+    grid-template-columns: 63% 20% 20%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#contenedor-sup{
+    height: 20rem;
+    grid-template-columns: 50%, 25%, 25%;
     align-items: center;
     justify-content: space-between;
 }
