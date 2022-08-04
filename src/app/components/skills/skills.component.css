@@ -22,13 +22,12 @@
 }
 
 #descrip {
-    padding: 2rem , 0;
     align-items: center;
     margin-bottom: 6rem;
     text-align: center;
 }
 
-#descrip p{
+p{
     margin-top: 10rem;
     margin-bottom: 10rem;
     color: black;

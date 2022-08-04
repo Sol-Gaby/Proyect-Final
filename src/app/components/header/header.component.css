@@ -1,8 +1,8 @@
 header{
     display: flex;
     /* width: 80%; */
-    height: 32rem;
-    margin: 4.5rem auto;
+    height: 30rem;
+    margin: 1rem auto;
     background-color: white;
     justify-content: space-between;
     padding: 2rem;
@@ -34,6 +34,7 @@ img{
     grid-template-columns: 50%, 25%, 25%;
     align-items: center;
     justify-content: space-between;
+    margin: 0rem;
 }
 
 .row{

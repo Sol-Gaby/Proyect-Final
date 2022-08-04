@@ -1,8 +1,0 @@
-.redes{
-    display: grid;
-    grid-auto-flow: column;
-}
-.redes img{
-    width: 2rem;
-    height: 2rem;
-}

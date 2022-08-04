@@ -1,0 +1,38 @@
+/* estilos de boton login */
+.container{
+    width: 100%;
+}
+.row{
+    align-items: center;
+    margin-top: 1rem;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.boto{
+    margin-right: 2rem;
+}
+
+/* logo argentina programa */
+.logo{
+    display: grid;
+    grid-auto-flow: column;
+}
+.logo img{
+    width: 6rem;
+    background: linear-gradient(252.34deg,rgba(203, 161, 254, 0.763) 21.45%, rgba(141, 191, 253, 0.779) 80.88%);
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+/* iconos redes sociales */
+.redes{
+    display: grid;
+    grid-auto-flow: column;
+}
+.redes img{
+    width: 2rem;
+    height: 2rem;
+}
