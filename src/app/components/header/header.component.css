@@ -8,6 +8,7 @@ header{
     padding: 2rem;
     border-radius: 2rem;
     align-items:flex-start;
+    position: relative;
 }
 
 div{
@@ -49,4 +50,31 @@ img{
     display: grid;
     grid-column: 1/2;
 margin-top: 4rem;
+}
+
+.shape-1{
+    height: 220px;
+    width: 220px;
+    background: linear-gradient(
+        #ff4391,
+        #ff9fc7
+    );
+    border-radius: 50%;
+    position: absolute;
+    bottom: -100px;
+    left: -150px;
+    z-index: -1;
+}
+.shape-2{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(
+        #73c8f9,
+        #6ba4ff
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    right: -100px;
+    z-index: -1;
 }

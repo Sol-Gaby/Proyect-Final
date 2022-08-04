@@ -37,6 +37,7 @@ p{
     font-family: "Poppins",sans-serif;
     color: #ffffff;
     font-weight: 500;
+    position: relative;
 }
 
 .experience__title{
@@ -58,4 +59,34 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.shape-1{
+    height: 220px;
+    width: 220px;
+    background: linear-gradient(
+        #ff4391,
+        #ff9fc7
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    right: -100px;
+    bottom: -100px;
+    z-index: -1;
+}
+.shape-2{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(
+        #2dc7ff,
+        #92e7ff
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: -90px;
+    right: 10px;
+    bottom: -100px;
+    left: 150px;
+    z-index: -1;
 }

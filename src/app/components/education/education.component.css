@@ -1,20 +1,20 @@
-h2{
+h2 {
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
 }
 
-h3{
+h3 {
     text-transform: uppercase;
     margin: 2rem;
 }
 
-h4{
+h4 {
     margin: 2rem;
 }
 
-ul{
+ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -22,48 +22,78 @@ ul{
     gap: 2rem;
 }
 
-li{
+li {
     list-style: none;
 }
 
-p{
+p {
     text-align: center;
 }
 
-#education p{
+#education p {
     color: black;
 }
 
 .container {
-    font-family: "Poppins",sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #ffffff;
     font-weight: 500;
+    position: relative;
 }
 
-.cont__education{
+.cont__education {
     /* display: grid; */
     margin-top: 15rem;
-    margin-bottom:4rem;
+    margin-bottom: 4rem;
 }
 
-.cont__title{
+.cont__title {
     padding-bottom: 2rem;
 }
 
-.cont__text{
+.cont__text {
 
     align-items: center;
 }
 
-#education{
-    padding: 2rem , 0;
+#education {
+    padding: 2rem, 0;
     align-items: center;
 }
 
-.row{
+.texto {
+    margin-bottom: 8rem;
+}
+
+.row {
     margin-top: 4rem;
     margin-bottom: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.shape-3 {
+    height: 280px;
+    width: 280px;
+    background: linear-gradient(
+        #e46bff,
+        #a231ff);
+    border-radius: 50%;
+    position: absolute;
+    top: -150px;
+    right: 450px;
+    z-index: -1;
+}
+
+.shape-1 {
+    height: 220px;
+    width: 220px;
+    background: linear-gradient(#fb5ef0,
+            #ffaff2);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: -100px;
+    z-index: -1;
 }
