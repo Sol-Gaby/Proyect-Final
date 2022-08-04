@@ -5,8 +5,11 @@
 }
 
 #skills h2{
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-bottom: 4rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
 }
 .cont__skills #descrip {
     display: grid;
@@ -29,4 +32,8 @@
     font-family: "Poppins",sans-serif;
     color: #ffffff;
     font-weight: 500;
+    justify-content: flex-end;
+}
+.bar{
+ margin-top: 10rem;
 }
