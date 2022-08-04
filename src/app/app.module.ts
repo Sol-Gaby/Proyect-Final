@@ -11,6 +11,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProgressBarComponent } from './components/progress-bar/progress-bar.component';
+import { ProyectsComponent } from './components/proyects/proyects.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
     ExperienceComponent,
     EducationComponent,
     SkillsComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    ProyectsComponent
   ],
   imports: [
     BrowserModule

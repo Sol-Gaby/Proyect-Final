@@ -1,12 +1,10 @@
 #skills{
     display: flex;
-    padding: 2rem , 0;
     align-items: center;
 }
 
 #skills h2{
     margin-top: 2rem;
-    padding-bottom: 4rem;
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
@@ -23,7 +21,7 @@
 #descrip p{
     color: black;
     margin-top: 2rem;
-    margin-bottom: 4rem;
+
 }
 
 .container{
@@ -35,5 +33,6 @@
     justify-content: flex-end;
 }
 .bar{
- margin-top: 10rem;
+ margin-top: 20rem;
+ margin-bottom: 0;
 }
