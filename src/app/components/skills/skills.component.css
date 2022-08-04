@@ -5,9 +5,11 @@
 
 #skills h2{
     margin-top: 2rem;
+    margin-bottom: 6rem;
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
 }
 .cont__skills #descrip {
     display: grid;
