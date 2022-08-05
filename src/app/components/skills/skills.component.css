@@ -1,33 +1,27 @@
 /* globales */
 p{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     color: black;
 }
 h2{
-    margin-top: 2rem;
-    margin-bottom: 6rem;
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
+    margin-bottom: 4rem;
 }
 /* contenedor principal */
+
 .container{
-    display: grid;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
     font-weight: 500;
-    justify-content: center;
     position: relative;
 }
-
-#descrip {
-    align-items: center;
+ .texto{
     margin-bottom: 6rem;
     text-align: center;
-}
-
-.bar{
- margin-bottom: 4rem;
 }
 /* circulos de fondo */
 .shape-1{
@@ -39,7 +33,7 @@ h2{
     );
     border-radius: 50%;
     position: absolute;
-    bottom: -3rem;
+    bottom: -8rem;
     left: -5rem;
     z-index: -1rem;
 }
@@ -66,7 +60,7 @@ h2{
     );
     border-radius: 50%;
     position: absolute;
-    top: 27rem;
+    top: 20rem;
     right: -5.5rem;
     z-index: -1;
 }

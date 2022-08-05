@@ -12,8 +12,19 @@ a:hover{
 .container{
     color: black;
     justify-content: flex-end;
+    display: inline-flex;
+    align-items: center;
     /* font-family: 'Inter'; */
 }
 .row{
     align-items: center;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16rem;
+}
+@media (min-width: 480) {
+    .nav__bar{
+        display:grid;
+        grid-template-rows: auto;
+    }
 }

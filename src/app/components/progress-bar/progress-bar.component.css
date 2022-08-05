@@ -1,14 +1,16 @@
-/* section{
-    display: flex;
-    justify-content: center;
-    padding-top: 6rem;
-} */
-
+/* globales */
+h2{
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/* conteneor principal */
 .contenedor{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .wrapper{
@@ -27,17 +29,6 @@
     box-shadow: 0 20px 30px rgba(0,0,0,0.2);
     backdrop-filter: blur(10px);
 }
-
-.container *{
-    font-family: "Poppins",sans-serif;
-    color: #ffffff;
-    font-weight: 500;
-}
-h2{
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-    text-align: center;
-}
 .skills:not(:last-child){
     margin-bottom: 10px;
 }
@@ -47,6 +38,7 @@ h2{
     justify-content: space-between;
     margin-bottom: 10px;
 }
+/* colores de las barritas internas de los cuadros de skills */
 .bar{
     position: relative;
     background-color: rgba(255,255,255,0.06);
@@ -74,7 +66,7 @@ h2{
     box-shadow: 0 0 5px rgba(255, 140, 240, 0.6);
 }
 
-/* animaciones barras de hard skills  */
+/* ________________animaciones barras de hard skills__________________  */
 #html-bar{
     animation: html-fill 2s forwards;
 }
@@ -83,6 +75,7 @@ h2{
         width: 70%;
     }
 }
+
 #css-bar{
     animation: css-fill 2s forwards;
 }
@@ -127,50 +120,50 @@ h2{
 /* ________________animaciones barras de soft skills__________________ */
 
 #habil-1{
-    animation: html-fill 2s forwards;
+    animation: habil-1-fill 3s forwards;
 }
-@keyframes html-fill{
+@keyframes habil-1-fill{
     100%{
-        width: 70%;
+        width: 98%;
     }
 }
 #habil-2{
-    animation: css-fill 2s forwards;
+    animation: habil-2-fill 3s forwards;
 }
-@keyframes css-fill{
+@keyframes habil-2-fill{
     100%{
-        width: 55%;
+        width: 75%;
     }
 }
 #habil-3{
-    animation: js-fill 2s forwards;
+    animation: habil-3-fill 3s forwards;
 }
-@keyframes js-fill {
+@keyframes habil-3-fill {
     100%{
-        width: 32%;
+        width: 100%;
     }
 }
 #habil-4{
-    animation: jQuery-fill 2s forwards;
+    animation: habil-4-fill 3s forwards;
 }
-@keyframes jQuery-fill{
+@keyframes habil-4-fill{
     100%{
-        width: 38%;
+        width: 98%;
     }
 }
 #habil-5{
-    animation: angular-fill 2s forwards;
+    animation: habil-5-fill 3s forwards;
 }
-@keyframes angular-fill{
+@keyframes habil-5-fill{
     100%{
         width: 48%;
     }
 }
 #habil-6{
-    animation: php-fill 2s forwards;
+    animation: habil-6-fill 3s forwards;
 }
-@keyframes php-fill{
+@keyframes habil-6-fill{
     100%{
-        width: 38%;
+        width: 90%;
     }
 }
