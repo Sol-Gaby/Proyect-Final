@@ -1,13 +1,4 @@
-.container {
-    font-family: "Poppins",sans-serif;
-    color: #ffffff;
-    font-weight: 500;text-align: center;
-    display:flex;
-    margin: 0 auto;
-    margin-top:8rem;
-    margin-bottom: 8rem;
-}
-
+/* globales */
 h2{
     font-size: 3rem;
     text-transform: uppercase;
@@ -16,14 +7,44 @@ h2{
     margin-top: 1rem;
     text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
 }
-
 p{
     color: black;
-    margin-top: 4rem;
-    margin-bottom: 10rem;
+    margin-top: 6rem;
+    text-align: center;
 }
 img{
     width: 20rem;
     border-radius: 50%;
     border: 0.5rem #ffffff solid;
+}
+/* contenedor principal */
+.container {
+    font-weight: 500;
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:8rem;
+    margin-bottom: 8rem;
+    position: relative;
+}
+/* decoracion de cajas de texto*/
+.caja{
+    padding: 10px 10px;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+}
+/* circulos de fondo  */
+.shape-3 {
+    height: 280px;
+    width: 280px;
+    background: linear-gradient(
+        #e46bff,
+        #a231ff);
+    border-radius: 50%;
+    position: absolute;
+    top: 25rem;
+    right: -8rem;
+    z-index: -1;
 }

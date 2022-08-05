@@ -1,4 +1,4 @@
-/* estilos de boton login */
+/* globales */
 .container{
     width: 100%;
 }
@@ -6,6 +6,7 @@
     align-items: center;
     margin-top: 1rem;
 }
+/* estilos de boton login */
 .botones{
     display: flex;
     flex-direction: row;
@@ -31,6 +32,7 @@
 .redes{
     display: grid;
     grid-auto-flow: column;
+    justify-content: space-around;
 }
 .redes img{
     width: 2rem;
