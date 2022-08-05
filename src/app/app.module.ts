@@ -11,6 +11,7 @@ import { ProgressBarComponent } from './components/progress-bar/progress-bar.com
 import { ProyectsComponent } from './components/proyects/proyects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BarraIconosComponent } from './components/barra-iconos/barra-iconos.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { BarraIconosComponent } from './components/barra-iconos/barra-iconos.com
     ProgressBarComponent,
     ProyectsComponent,
     FooterComponent,
-    BarraIconosComponent
+    BarraIconosComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule
