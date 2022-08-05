@@ -60,11 +60,19 @@ h2{
     width: 0;
     height: 5px;
     border-radius: 10px;
+    background-color: #94c9ff;
+    border: 1px solid #87dbff;
+    box-shadow: 0 0 5px rgba(140, 159, 255, 0.6);
+}
+.bar-2 div{
+    position: relative;
+    width: 0;
+    height: 5px;
+    border-radius: 10px;
     background-color: #af94ff;
     border: 1px solid #bd87ff;
     box-shadow: 0 0 5px rgba(255, 140, 240, 0.6);
 }
-
 
 
 #html-bar{

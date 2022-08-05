@@ -1,15 +1,7 @@
-/* #skills{
-    display: flex;
-    align-items: center;
-} */
-
-#skills h2{
-    margin-top: 2rem;
-    margin-bottom: 6rem;
-    font-size: 3rem;
-    text-transform: uppercase;
-    text-align: center;
-    text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
+p{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    color: black;
 }
 
 .container{
@@ -21,16 +13,19 @@
     position: relative;
 }
 
+#skills h2{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
+}
+
 #descrip {
     align-items: center;
     margin-bottom: 6rem;
     text-align: center;
-}
-
-p{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    color: black;
 }
 
 .bar{

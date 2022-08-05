@@ -31,7 +31,6 @@ p{
 }
 
 .cont__experience{
-    /* display: grid; */
     margin-top: 15rem;
     margin-bottom: 7rem;
     font-family: "Poppins",sans-serif;
@@ -61,6 +60,15 @@ p{
     justify-content: center;
 }
 
+.caja{
+    width: 100%;
+    padding: 20px 10px;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px)
+}
 .shape-1{
     height: 220px;
     width: 220px;
