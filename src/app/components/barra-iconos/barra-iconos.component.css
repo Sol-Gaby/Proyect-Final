@@ -23,9 +23,13 @@
 }
 .logo img{
     width: 6rem;
-    background: linear-gradient(252.34deg,rgba(203, 161, 254, 0.763) 21.45%, rgba(141, 191, 253, 0.779) 80.88%);
+    background: linear-gradient(252.34deg,rgba(203, 161, 254, 0.856) 21.45%, rgba(141, 203, 253, 0.779) 80.88%);
     border-radius: 0.5rem;
     padding: 0.2rem;
+    box-shadow: 0 0.5rem 2rem rgba(248, 231, 255, 0.799);
+}
+.logo img:hover{
+    box-shadow: 0 0.5rem 1.2rem rgba(245, 131, 255, 0.821);
 }
 
 /* iconos redes sociales */

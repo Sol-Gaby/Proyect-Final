@@ -31,6 +31,14 @@ p{
     text-align: center;
     color: black;
 }
+hr{
+    background-color: #400157;
+    border: 0;
+    opacity: .50;
+    height: 0.2rem;
+    width: 50rem;
+    margin-bottom: 3rem;
+}
 /* contenedor principal */
 .container{
     margin-top: 15rem;
@@ -80,10 +88,8 @@ p{
     );
     border-radius: 50%;
     position: absolute;
-    top: 500px;
-    right: -100px;
-    bottom: -100px;
-    z-index: -1;
+    right: -4rem;
+    bottom: -5rem;
 }
 .shape-2{
     height: 180px;
@@ -96,7 +102,7 @@ p{
     position: absolute;
     top: -90px;
     right: 10px;
-    bottom: -100px;
-    left: 150px;
+    top: 5rem;
+    left: 3rem;
     z-index: -1;
 }

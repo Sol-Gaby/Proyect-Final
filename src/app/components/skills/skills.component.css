@@ -1,21 +1,28 @@
 /* globales */
-p{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    color: black;
-}
 h2{
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
     text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
-    margin-bottom: 4rem;
+    margin-bottom: 8rem;
+}
+p{
+    color: black;
+}
+hr{
+    background-color: #400157;
+    border: 0;
+    opacity: .50;
+    height: 0.2rem;
+    width: 50rem;
+    margin-bottom: 3rem;
+    margin-left:3rem ;
 }
 /* contenedor principal */
 
 .container{
-    margin-top: 8rem;
-    margin-bottom: 4rem;
+    margin-top: 15rem;
+    margin-bottom: 3rem;
     font-weight: 500;
     position: relative;
 }
@@ -35,7 +42,7 @@ h2{
     position: absolute;
     bottom: -8rem;
     left: -5rem;
-    z-index: -1rem;
+    z-index: -1;
 }
 .shape-2{
     height: 180px;
@@ -46,11 +53,10 @@ h2{
     );
     border-radius: 50%;
     position: absolute;
-    top: -5.2rem;
-    left: -5rem;
+    bottom: 45rem;
+    left: -5rem;    
     z-index: -1;
 }
-
 .shape-3{
     height: 280px;
     width: 280px;
