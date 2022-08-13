@@ -1,5 +1,6 @@
-package com.Portfolio.mgb.Entity;
-import java.io.Serializable;
+
+package com.portfolio.mgb.Entity;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,23 +12,21 @@ import lombok.Setter;
 
 @Getter @Setter
 @Entity
-public class Persona implements Serializable{
+public class Persona {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
     @NotNull
-    @Size(min = 3, max = 50, message = "No cumple con los requisitos")
-    private String nombre;
+    @Size(min = 3, max = 50, message = "No cumple con los requerimientos")
+    private String name;
     
     @NotNull
-    @Size(min = 3, max = 50, message = "No cumple con los requisitos")
-    private String apellido;
+    @Size(min = 3, max = 50, message = "No cumple con los requerimientos")
+    private String surname;
     
-    @NotNull
-    @Size(min = 3, max = 50, message = "No cumple con los requisitos")
-    private String img;
-    
+    @Size(min = 3, max = 50, message = "No cumple con los requerimientos")
+    private String image;
 }
 /**
  * @author Sol
