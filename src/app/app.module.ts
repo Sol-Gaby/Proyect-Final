@@ -12,6 +12,8 @@ import { ProyectsComponent } from './components/proyects/proyects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BarraIconosComponent } from './components/barra-iconos/barra-iconos.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { HttpClientModule} from '@angular/common/http';
+import { HomeComponent } from './componets/home/home.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +27,13 @@ import { MenuComponent } from './components/menu/menu.component';
     ProyectsComponent,
     FooterComponent,
     BarraIconosComponent,
-    MenuComponent
+    MenuComponent,
+    HomeComponent,
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
