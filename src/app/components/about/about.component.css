@@ -6,8 +6,14 @@ h2{
     text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.923);    
     margin-bottom: 4rem;
 }
+img {
+    width: 20rem;
+    border-radius: 50%;
+    box-shadow: 0 0.2rem 2rem rgba(64, 64, 64, 0.821);
+}
 p{
     color: black;
+    margin-top: 2rem;
     text-align: center;
 }
 hr{
@@ -16,51 +22,49 @@ hr{
     opacity: .50;
     height: 0.2rem;
     width: 50rem;
+    margin: auto;
     margin-bottom: 3rem;
 }
 /* contenedor principal */
 .container{
-    display: flex;
-    grid-template-columns: repeat(2,1fr);
     font-weight: 500;
-    position: relative;
     margin-top: 15rem;
-    margin-bottom: 7rem;
+    margin-bottom: 6rem;
+    position: relative;
 }
 .row{
-    display: grid;
-    justify-content: center;
-}
-
-.cont__text{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-between;
 }
 
-.foto img {
-    grid-row: 1;
-    width: 20rem;
-    border-radius: 50%;
-    box-shadow: 0 0.2rem 2rem rgba(64, 64, 64, 0.821);
+.foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.foto p{
-    margin-top: 2rem;
+.foto h3{
+    text-transform: uppercase;
     text-align: center;
-    color: white;
-    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 1.4rem;
+}
+.foto p{
+    margin: 0rem;
 }
 
 /* responsive con mediaquery */
-@media (min-width: 480) {
-    
-}
 
-@media (min-width: 768) {
-    
+.caja{
+    width: 45%;
+    padding: 1rem 0rem;
+    background-color: rgba(255,255,255,0.06);
+    border: 2px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    margin-right: 2rem;
 }
 .shape-3{
     height: 280px;
@@ -74,4 +78,36 @@ hr{
     top: -13rem;
     right: -5.5rem;
     z-index: -1;
+}
+.shape-3{
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(
+        #179537,
+        #8cff9bd1
+    );
+    border-radius: 50%;
+    position: absolute;
+    top: 32rem;
+    left: 18rem;
+    z-index: -1;
+}
+@media (min-width: 480) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768) {
+    .row{
+        display: grid;
+        grid-auto-flow: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
 }
