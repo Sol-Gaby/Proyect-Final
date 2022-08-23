@@ -1,14 +1,14 @@
 :root{
     --line-1:rgba(235, 234, 243, 0.933);
 }
-.container{
+/* router-outlet{
     width: 80%;
     margin: 0 auto;    
     font-family: "Poppins",sans-serif;    
-    color: #ffffff;
-justify-content: center;
-}
-hr{
+    color: #ffffff;    
+    justify-content: center;
+} */
+/* hr{
     background-color: #400157;
     border: 0;
     opacity: .50;
@@ -16,4 +16,4 @@ hr{
     width: 90%;
     margin-bottom: 3rem;
     margin: auto;
-}
+} */
