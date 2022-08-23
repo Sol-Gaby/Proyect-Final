@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 1280vh;
+    height: 100%;
+}
+ #radius-shape-1 {
+    height: 220px;
+    width: 220px;
+    top: -40px;
+    left: -120px;
+    background: radial-gradient(
+        #ff4372,
+        #ff75b5);
+    overflow: hidden;
+  }
+
+  #radius-shape-2 {
+    border-radius: 50%;
+    bottom: -40px;
+    right: -110px;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(
+        #dfa4ff,
+        #c690ff);
+    overflow: hidden;
+  }
+
+  .bg-glass {
+    background-color:  rgba(255,255,255,0.06)!important;
+    backdrop-filter: saturate(100%) blur(10px);
+  }
