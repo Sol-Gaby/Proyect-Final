@@ -14,6 +14,6 @@ export class PersonaService {
   constructor(private http:HttpClient) {}
   // el observable hace las perticione asincronas
    public getPersona(): Observable<persona>{    
-    return this.http.get<persona>(this.URL+'perfil');
+    return this.http.get<persona>(this.URL+'get/perfil');
    }
 }

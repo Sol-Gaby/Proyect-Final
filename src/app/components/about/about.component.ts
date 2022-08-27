@@ -14,8 +14,6 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
     //el suscrbe conecta con el observable, este detecta los cambios y ejecuta una accion, cuando cambie la condicion de persona de arriba el suscribe, la info se pasa de persona al data y este lo pasa al service y este al back
-    this.personaService.getPersona().subscribe(data => {
-      this.persona = data;
-    });
+    this.personaService.getPersona().subscribe(data => {this.persona = data});
   }
 }

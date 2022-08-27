@@ -1,7 +1,11 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.portfolio.mgb.Controller;
 
 import com.portfolio.mgb.Entity.Persona;
-import com.portfolio.mgb.Interface.InterfacePersonaServ;
+import com.portfolio.mgb.Interface.InPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -15,54 +19,52 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin("http://localhost:4200")
+public class PersonaController {
 
-public class ControllerPersona {
+    @Autowired
+    InPersonaService inpersonaService;
 
-    @Autowired InterfacePersonaServ ipersonaServ;
-
-    //para trar/get objetos del tipo persona
-    @GetMapping("/obtener/perfil")
-    public List<Persona> getPersona(){
-        return ipersonaServ.getPersona();
+    @GetMapping("persona/traer")
+    public List<Persona> getPersona() {
+        return inpersonaService.getPersonas();
     }
-    //para crear/Post un objeto del tipo persona
 
     @PostMapping("/persona/crear")
     public String createPersona(@RequestBody Persona persona) {
-        ipersonaServ.savePersona(persona);
+        inpersonaService.savePersona(persona);
         return "La persona fue creada correctamente";
     }
-    //para eliminar/delete un objeto del tipo persona
 
     @DeleteMapping("/persona/borrar/{id}")
     public String deletePersona(@PathVariable Long id) {
-        ipersonaServ.deletePersona(id);
+        inpersonaService.deletePersona(id);
         return "La persona fue eliminada correctamente";
     }
-    //URL:puerto/persona/editar/4/nombre, apellido, imgen
 
-    @PutMapping("/editar/perfil/{id}")
+    @PutMapping("/persona/editar/{id}")
     public Persona editPersona(@PathVariable Long id,
-            @RequestParam("name") String newName,
-            @RequestParam("surname") String newSurname,
-            @RequestParam("image") String newImage) {
-        Persona persona = ipersonaServ.findPersona(id);
+            @RequestParam("name") String nuevoName,
+            @RequestParam("surname") String nuevoSurname,
+            @RequestParam("image") String nuevoImage) {
 
-        persona.setName(newName);
-        persona.setSurname(newSurname);
-        persona.setImage(newImage);
+        Persona persona = inpersonaService.findPersona(id);
 
-        ipersonaServ.savePersona(persona);
+        persona.setName(nuevoName);
+        persona.setSurname(nuevoSurname);
+        persona.setImage(nuevoImage);
+
+        inpersonaService.savePersona(persona);
         return persona;
     }
 
-    @GetMapping("persona/perfil")
-    public Persona findPersona(){
-        return ipersonaServ.findPersona((long)1);
+    @GetMapping("/persona/get/perfil")
+    public Persona findPersona() {
+        return inpersonaService.findPersona((long) 1);
     }
 
 }
 /**
+ *
  * @author Sol
  */
