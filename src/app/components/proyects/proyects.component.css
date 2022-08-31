@@ -1,20 +1,25 @@
 /* globales */
 h2{
-    font-size: 3rem;
+    font-size: 4.5rem;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.163);
     margin-bottom: 6rem;
-    text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
+    color: hsl(218, 81%, 75%);
+}
+h5{
+    margin: 1rem;
 }
 p{
     color: black;
-    margin-top: 2rem;
+    margin-top: 1rem;
     text-align: center;
 }
 img{
     width: 20rem;
-    border-radius: 50%;
-    border: 0.5rem #ffffff solid;
+    margin: 1rem;
+    border-radius: 10px;
 }
 hr{
     background-color: #400157;
@@ -27,15 +32,16 @@ hr{
 }
 /* contenedor principal */
 .container {
-    font-weight: 500;
-    margin-top:15rem;
-    margin-bottom: 15rem;
-    position: relative;
+    position: relative;    
+    margin: auto;
 }
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+.color-t{
+    color: hsl(0, 0%, 100%);
+}
+.tarjetas{
+    display: grid;
+    gap: 2rem;
+    justify-content: center;
 }
 /* decoracion de cajas de texto*/
 .caja{
@@ -44,7 +50,11 @@ hr{
     border: 2px solid rgba(255,255,255,0.06);
     border-radius: 10px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);    
+    display: grid;
+    justify-items: center;
+    width: 40%;
+    margin-bottom: 15rem;
 }
 /* circulos de fondo  */
 .shape-3 {
@@ -55,7 +65,7 @@ hr{
         #a231ff);
     border-radius: 50%;
     position: absolute;
-    top: 25rem;
-    right: -8rem;
+    bottom: 4rem;
+    right: -2rem;
     z-index: -1;
 }

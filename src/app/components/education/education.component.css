@@ -1,27 +1,31 @@
 /* globales */
 h2 {
-    font-size: 3rem;
+    font-size: 4.5rem;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.923);
+    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.163);
+    margin-bottom: 4rem;
+    color: hsl(218, 81%, 75%);
 }
 h3 {
     text-transform: uppercase;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 h4 {
-    margin: 1rem;
+    margin-bottom: 1rem;
 }
 ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     width: 100%;
-    text-align: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     margin: auto;
+    padding: 0;
 }
 li {
     list-style: none;
+    text-align: center;
 }
 p {
     text-align: center;
@@ -35,6 +39,13 @@ hr{
     width: 50rem;
     margin-bottom: 3rem;
 }
+img{
+    min-width: 74px;
+    max-width: 150px;
+    min-height: 74px;
+    max-height: 100px;
+    margin: 0.5rem;
+}
 /* contenedor principal */
 .container {
     margin-top: 15rem;
@@ -42,22 +53,16 @@ hr{
     font-weight: 500;
     position: relative;
 }
-.cont__title {
-    padding-bottom: 4rem;
+.color-t{
+    color: hsl(0, 0%, 100%);
 }
-
+.cont__title {
+    padding-bottom: 2rem;
+}
 .cont__text {
     align-items: center;
 }
-.texto {
-    margin-bottom: 2rem;
-}
-
 .row {
-    margin-top: 4rem;
-    margin-bottom: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 /* decoracion de cajas de texto*/
@@ -67,7 +72,7 @@ hr{
     background-color: rgba(255,255,255,0.06);
     border: 2px solid rgba(255,255,255,0.06);
     border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
     backdrop-filter: blur(10px)
 }
 /* circulos de fondo  */
@@ -79,11 +84,10 @@ hr{
         #a231ff);
     border-radius: 50%;
     position: absolute;
-    top: -1rem;
-    left: 7rem;
+    top: 3rem;
+    left: -4rem;
     z-index: -1;
 }
-
 .shape-1 {
     height: 220px;
     width: 220px;
@@ -91,7 +95,7 @@ hr{
             #ffaff2);
     border-radius: 50%;
     position: absolute;
-    bottom: 1rem;
-    right: -6rem;
+    bottom: -5rem;
+    right: -4rem;
     z-index: -1;
 }

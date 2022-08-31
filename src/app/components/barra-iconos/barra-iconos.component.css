@@ -1,10 +1,25 @@
 /* globales */
+a{
+    text-decoration: none;
+    color:white ;
+}
+button{
+    background: linear-gradient(252.34deg,rgb(195, 147, 253) 21.45%, rgb(126, 194, 249) 80.88%);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem  1rem;
+    align-items: center;
+}
+button:hover{
+    box-shadow: 0 0.2rem 1rem rgba(76, 0, 255, 0.821);
+}
 .container{
     width: 100%;
 }
 .row{
     align-items: center;
     margin-top: 1rem;
+    padding: 0;
 }
 /* estilos de boton login */
 .botones{
@@ -12,10 +27,9 @@
     flex-direction: row;
     justify-content: flex-end;
 }
-.boto{
+.boto1{
     margin-right: 2rem;
 }
-
 /* logo argentina programa */
 .logo{
     display: grid;
@@ -23,7 +37,7 @@
 }
 .logo img{
     width: 6rem;
-    background: linear-gradient(252.34deg,rgba(203, 161, 254, 0.856) 21.45%, rgba(141, 203, 253, 0.779) 80.88%);
+    background: linear-gradient(252.34deg,rgb(195, 147, 253) 21.45%, rgb(126, 194, 249) 80.88%);
     border-radius: 0.5rem;
     padding: 0.2rem;
     box-shadow: 0 0.5rem 2rem rgba(248, 231, 255, 0.799);

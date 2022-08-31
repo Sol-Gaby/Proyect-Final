@@ -1,4 +1,7 @@
 /* globales */
+header{
+    position: relative; 
+}
 img{
     width: 50%;
     margin: 0 auto;
@@ -6,23 +9,15 @@ img{
 /* contetnedor principal */
 .container{
     display: grid;
-    height: 20rem;
-    align-items: center;
     height: 30rem;
+    align-items: center;
     margin: 2rem auto;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.692);
+    backdrop-filter: blur(10px);
     padding: 2rem;
-    border-radius: 2rem;
-    position: relative;    
-    border: 0.3rem solid rgba(20, 19, 19, 0.06);
+    border-radius: 2rem;   
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.256);
 }
-
-/* .row{
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    align-items: center;
-} */
 /* ilustracion */
 .banner{
     display: grid;
@@ -31,28 +26,28 @@ img{
 }
 /* circulos de fondo */
 .shape-1{
-    height: 220px;
-    width: 220px;
+    height: 260px;
+    width: 260px;
     background: linear-gradient(
-        #ff4391,
-        #ff9fc7
+        #ff86b8,
+        #ff006a
     );
     border-radius: 50%;
     position: absolute;
-    bottom: -4rem;
-    left: -2rem;
+    bottom: -5rem;
+    left: -5rem;
     z-index: -1;
 }
 .shape-2{
     height: 180px;
     width: 180px;
     background: linear-gradient(
-        #8be6ff,
-        #00d0ff
+        #60f0fd,
+        #00bae4
     );
     border-radius: 50%;
     position: absolute;
     top: -4rem;
-    right: 1rem;
+    right: -4rem;
     z-index: -1;
 }

@@ -6,25 +6,24 @@ a{
     color: black;
 }
 a:hover{
-    color: rgb(166, 114, 255);
+    color: rgb(144, 80, 255);
 }
 /* contenedor principal */
 .container{
     color: black;
-    justify-content: flex-end;
-    display: inline-flex;
-    align-items: center;
-    /* font-family: 'Inter'; */
 }
 .row{
     align-items: center;
     display: grid;
     grid-auto-flow: column;
+    justify-content: space-around;
+    width: 100%;
     gap: 16rem;
 }
 @media (min-width: 480) {
     .nav__bar{
         display:grid;
+        justify-content: end;
         grid-template-rows: auto;
     }
 }

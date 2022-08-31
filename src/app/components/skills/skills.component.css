@@ -1,72 +1,75 @@
 /* globales */
-h2{
-    font-size: 3rem;
+h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 0rem 1rem 5px rgba(96, 96, 96, 0.923);
-    margin-bottom: 8rem;
+    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.163);
+    margin-bottom: 4rem;
+    color: hsl(218, 81%, 75%);
 }
-p{
-    color: black;
+p {
+    font-size: 1.2rem;
 }
-hr{
+hr {
     background-color: #400157;
     border: 0;
     opacity: .50;
     height: 0.2rem;
     width: 50rem;
     margin-bottom: 3rem;
-    margin-left:3rem ;
 }
 /* contenedor principal */
-
-.container{
+.container {
     margin-top: 15rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-weight: 500;
     position: relative;
 }
- .texto{
+.row {
+    margin-top: 1rem;
+    justify-content: center;
+}
+.texto {
     margin-bottom: 6rem;
     text-align: center;
 }
+.progre{
+margin-bottom: 14rem;
+}
 /* circulos de fondo */
-.shape-1{
+.shape-1 {
     height: 220px;
     width: 220px;
-    background: linear-gradient(
-        #ff4372,
-        #ff75b5
-    );
+    background: linear-gradient(#ff4372,
+            #ff75b5);
     border-radius: 50%;
     position: absolute;
-    bottom: -8rem;
+    top: 22rem;
+    right: -3rem;
+    z-index: -1;
+}
+
+.shape-2 {
+    height: 180px;
+    width: 180px;
+    background: linear-gradient(#00ffff,
+            #00a2ff);
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
     left: -5rem;
     z-index: -1;
 }
-.shape-2{
-    height: 180px;
-    width: 180px;
-    background: linear-gradient(
-        #73c8f9,
-        #6ba4ff
-    );
-    border-radius: 50%;
-    position: absolute;
-    bottom: 45rem;
-    left: -5rem;    
-    z-index: -1;
-}
-.shape-3{
+
+.shape-3 {
     height: 280px;
     width: 280px;
-    background: linear-gradient(
-        #dfa4ff,
-        #c690ff
-    );
+    background: linear-gradient(#c061ff,
+            #ea9eff);
     border-radius: 50%;
     position: absolute;
-    top: 20rem;
-    right: -5.5rem;
+    bottom: 2rem;
+    left: -5rem;
     z-index: -1;
 }

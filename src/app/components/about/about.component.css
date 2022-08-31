@@ -1,22 +1,27 @@
 /* globales */
-h2{
-    font-size: 3rem;
+h2 {
+    font-size: 4.5rem;
+    font-weight: 800;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.923);    
+    text-shadow: 0rem 1rem 8px rgba(96, 96, 96, 0.163);
     margin-bottom: 4rem;
+    color: hsl(218, 81%, 75%);
 }
+
 img {
     width: 20rem;
     border-radius: 50%;
     box-shadow: 0 0.2rem 2rem rgba(64, 64, 64, 0.821);
 }
-p{
+
+p {
     color: black;
     margin-top: 2rem;
     text-align: center;
 }
-hr{
+
+hr {
     background-color: #400157;
     border: 0;
     opacity: .50;
@@ -25,89 +30,57 @@ hr{
     margin: auto;
     margin-bottom: 3rem;
 }
+
 /* contenedor principal */
-.container{
+.container {
     font-weight: 500;
-    margin-top: 15rem;
-    margin-bottom: 6rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
     position: relative;
 }
-.row{
+.color-t {
+    color: hsl(0, 0%, 100%);
+}
+.row {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-
-.foto{
+.foto {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.foto h3{
+.foto h3 {
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    margin-top: 1.4rem;
+    margin-top: 2rem;
 }
-.foto p{
+.foto p {
     margin: 0rem;
 }
-
-/* responsive con mediaquery */
-
-.caja{
-    width: 45%;
-    padding: 1rem 0rem;
-    background-color: rgba(255,255,255,0.06);
-    border: 2px solid rgba(255,255,255,0.06);
-    border-radius: 10px;
-    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
-    backdrop-filter: blur(10px);
-    margin-right: 2rem;
-}
-.shape-3{
+.shape-3 {
     height: 280px;
     width: 280px;
-    background: linear-gradient(
-        #e156fa,
-        #ff8cecd1
-    );
+    background: linear-gradient(#e156fa,
+            #ff8cecd1);
     border-radius: 50%;
     position: absolute;
-    top: -13rem;
+    top: -2rem;
     right: -5.5rem;
     z-index: -1;
 }
-.shape-3{
+.shape-4 {
     height: 180px;
     width: 180px;
-    background: linear-gradient(
-        #179537,
-        #8cff9bd1
-    );
+    background: linear-gradient(#179537,
+            #8cff9bd1);
     border-radius: 50%;
     position: absolute;
     top: 32rem;
     left: 18rem;
     z-index: -1;
 }
-@media (min-width: 480) {
-    .row{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-}
-
-@media (min-width: 768) {
-    .row{
-        display: grid;
-        grid-auto-flow: row;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-    }
-}
+/* responsive con mediaquery */
